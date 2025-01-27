@@ -1,0 +1,147 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #007bff;
+}
+
+/* Container layout */
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+    background: #007bff;
+    color: #fff;
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mobile-mockup img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Right Section */
+.right-section {
+    flex: 1;
+    padding: 60px;
+}
+
+.logo {
+    width: 120px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.signup-box h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.subtext {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form layout */
+.input-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.input-row input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.checkbox-group a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-btn, .google-signup {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.signup-btn {
+    background: #007bff;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.google-signup {
+    background: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.google-signup img {
+    width: 20px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.app-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-links img {
+    width: 150px;
+    margin: 0 10px;
+}

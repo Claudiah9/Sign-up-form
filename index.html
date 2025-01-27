@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h2>Social media shared today, tomorrow or by location</h2>
+            <div class="mobile-mockup">
+                <img src="/imgs.png" alt="Mobile imgs">
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="signup-box">
+                <img src="logo.png" alt="Capzul Logo" class="logo">
+                <h3>Create account</h3>
+                <p class="subtext">For business, band or celebrity.</p>
+
+                <form id="signupForm">
+                    <div class="input-row">
+                        <label>First name</label>
+                        <input type="text" name="first name">
+                        <label>Last name</label>
+                        <input type="text" name="Last name">
+                    </div>
+                    <div class="input-row">
+                        <label>Email or phone number</label>
+                        <input type="email" name="Email or phone number">
+                        <label> Date of birth</label>
+                        <input type="date">
+                    </div>
+                    <div class="input-row">
+                        <label>Password</label>
+                        <input type="password" name="Password">
+                        <label>Confirm password</label>
+                        <input type="password" name="Confirm password">
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I agree to <a href="#">Terms and Privacy policy</a></label>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="signup-btn">Create account</button>
+                    <button class="google-signup">
+                        <img src="google-icon.png" alt="Google Icon"> Sign-in with Google
+                    </button>
+                </form>
+
+                <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+
+                <div class="app-links">
+                    <img src="google-play.png" alt="Google Play">
+                    <img src="app-store.png" alt="App Store">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
